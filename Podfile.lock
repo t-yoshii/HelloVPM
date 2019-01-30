@@ -1,0 +1,36 @@
+PODS:
+  - BiSON (1.1.1)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - SmartDeviceLink (6.1.2):
+    - BiSON (~> 1.1.1)
+    - SmartDeviceLink/Default (= 6.1.2)
+  - SmartDeviceLink/Default (6.1.2):
+    - BiSON (~> 1.1.1)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - SmartDeviceLink (~> 6.1.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BiSON
+    - GoogleMaps
+    - GooglePlaces
+    - SmartDeviceLink
+
+SPEC CHECKSUMS:
+  BiSON: 2663348e6c64bfbf9cc82e4b0b3f7eed2cb3eb6b
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  SmartDeviceLink: 1e1669e61f03b69ac9e305d11654f299c753fdfb
+
+PODFILE CHECKSUM: 17c7773f1c77a5a9b2d0015c35306276c206ecd1
+
+COCOAPODS: 1.5.3
